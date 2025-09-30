@@ -1,0 +1,8 @@
+resource "aws_vpc" "mydefault" {
+  cidr_block = "10.10.0.0/16"
+  provider = "mydefault"
+}
+
+resource "aws_vpc" "mydev" {
+  cidr_block = "20.10.0.0/16"
+  provider = "mydev"}
